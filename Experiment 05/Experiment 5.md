@@ -76,6 +76,10 @@ Long unique passwords reduce guessability. Rate limiting, progressive delays, mo
 
 The two demonstrations illustrate the difference between a candidate list and a generated keyspace. Their outcomes depend on the deliberately weak local test credentials.
 
+## Conclusion
+
+Dictionary guessing tests a selected list of candidates, while brute-force guessing enumerates a defined set of possibilities. The supplied local SSH demonstrations show why weak test credentials are vulnerable to these approaches and why service limits affect online attempts. Long unique passwords, authentication controls and monitoring reduce the opportunity for successful guessing.
+
 ## Viva questions
 
 - Why does a dictionary attack fail when the password is absent from the list?

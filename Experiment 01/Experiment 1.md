@@ -59,6 +59,10 @@ intext:"confidential" filetype:pdf
 
 More specific queries should reduce unrelated results, although an operator can also return no matches. The exercise demonstrates how indexed information supports passive reconnaissance. Record actual findings rather than assuming that the example queries return the same results on every date.
 
+## Conclusion
+
+Advanced search operators provide a systematic way to organise publicly indexed information and identify an organisation's visible online presence. The exercise connects focused searches with the documentation of possible information exposure. Findings must be verified in context because an indexed page or document alone does not establish a security weakness.
+
 ## Viva questions
 
 - How does querying a search engine differ from scanning a host?

@@ -77,6 +77,10 @@ Host: neverssl.com
 
 For representative packets, record protocol, source, destination, ports where applicable, length and relevant fields. DNS may be cached or encrypted, and ARP may already be cached, so an empty filter alone does not prove a protocol is absent from the network. The exercise connects captured traffic to the network stack and demonstrates the difference between observable metadata and encrypted content.
 
+## Conclusion
+
+Packet analysis connects application activity with transport, network and link-layer behaviour. Comparing HTTP and HTTPS illustrates how encryption protects application content while some communication metadata remains observable. Reliable conclusions depend on selecting the correct interface, applying suitable filters and interpreting the captured packets in context.
+
 ## Viva questions
 
 - How do capture filters and display filters differ?

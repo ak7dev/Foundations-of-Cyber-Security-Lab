@@ -78,6 +78,10 @@ The PDF illustrates Facebook's `xs` cookie. Its name, values and attributes are 
 
 Record which traffic was actually captured, whether a cookie header was readable, and which flags were observed. HTTPS with Secure protects transport, HttpOnly restricts script access, and SameSite constrains cross-site sending. Session rotation, short server-side lifetimes, logout invalidation, contextual output encoding and CSRF controls strengthen the application. The exercise demonstrates these controls through inspection rather than reuse of another person's session.
 
+## Conclusion
+
+Cookie security depends on several complementary controls: encrypted transport, appropriate cookie attributes and effective server-side session management. Inspecting traffic and browser storage helps explain the distinct roles of Secure, HttpOnly and SameSite. These controls reduce specific risks and work alongside application protections such as session invalidation, output encoding and CSRF defences.
+
 ## Viva questions
 
 - Why can Cookie-Editor display a token that Wireshark cannot read in TLS traffic?

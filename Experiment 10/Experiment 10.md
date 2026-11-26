@@ -88,6 +88,10 @@ The handout's numerical example gives 20 sent messages and six clicks, yielding 
 
 Training, a clear reporting channel, careful sender/link checking and MFA reduce risk. SPF, DKIM and DMARC support domain authentication and policy handling, while filtering and attachment controls address additional paths. These controls complement user education.
 
+## Conclusion
+
+An authorised Gophish simulation provides a structured way to study phishing cues and assess awareness through campaign events. Open and click counts require careful interpretation because automated scanners, proxies and image settings can affect them. The exercise supports clear reporting habits, user education and technical email protections while keeping the training audience and collected data within the agreed scope.
+
 ## Viva questions
 
 - What does each of the five Gophish components contribute?

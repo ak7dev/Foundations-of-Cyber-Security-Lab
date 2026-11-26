@@ -150,6 +150,10 @@ Least privilege, patched software, trusted application sources, endpoint monitor
 
 The experiment explains foreground terminal input and connects it to the risks of broader input access. Record observed codes, file contents and cleanup behaviour from the actual run.
 
+## Conclusion
+
+The C examples demonstrate how a foreground program reads terminal input, reports character codes and writes sample text to an RTF file. They also highlight the importance of input bounds, error handling and restoration of terminal settings. Understanding these mechanisms helps distinguish ordinary application input from broader keylogging risks and informs the use of access controls and host monitoring.
+
 ## Viva questions
 
 - What changes when `ICANON` and `ECHO` are cleared?

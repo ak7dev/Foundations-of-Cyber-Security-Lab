@@ -90,9 +90,15 @@ nmap -sU -p 53,123,161 127.0.0.1
 
 The label `http-alt` on port 8000 is a port-name association. Ncat does not become an HTTP server because that label appears. Service probes provide additional identification evidence.
 
-## Result and viva
+## Result
 
 The experiment demonstrates host discovery, controlled open/closed TCP states and the ambiguity of UDP responses. Record observed results from the actual run.
+
+## Conclusion
+
+Host discovery, port scanning and service detection answer different questions about a system's network exposure. The controlled listener examples explain how TCP port states change with service availability and why UDP results can remain ambiguous. Scan findings should be interpreted alongside response reasons, firewall behaviour and the actual service configuration.
+
+## Viva questions
 
 - Why can a silent UDP service appear `open|filtered`?
 - How does `-sV` add information beyond `-p`?

@@ -184,6 +184,10 @@ gcc -std=c11 -Wall -Wextra example.c -o example
 
 The exercise demonstrates why bounds must be enforced at every write. Record actual unsafe-program behaviour without treating one observed output as guaranteed.
 
+## Conclusion
+
+The C examples illustrate that writing beyond an array's capacity causes undefined behaviour and can affect neighbouring data. Bounded input and copying, space for the string terminator, and checks for failure or truncation are essential to reliable buffer handling. Compiler warnings and runtime protections support these practices but do not replace correct bounds checking.
+
 ## Viva questions
 
 - Why does a ten-byte C array normally hold only nine string characters?

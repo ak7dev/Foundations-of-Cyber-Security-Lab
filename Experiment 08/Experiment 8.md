@@ -89,6 +89,10 @@ The source alert on PDF page 17 contains a timestamp, `[1:1000001:1]`, the rule 
 
 Record the version, interface, rule, validation result, test traffic and matching alert lines. The result demonstrates that a known rule can detect known traffic. A successful configuration test alone does not establish that the intended interface was captured or that the local rule matched.
 
+## Conclusion
+
+A local Snort rule provides a clear link between a defined traffic pattern and the alert it generates. The ICMP example highlights the need to validate the configuration, capture the correct interface and examine matching alert evidence. An alert requires contextual interpretation, and preventing traffic requires an appropriate blocking deployment.
+
 ## Viva questions
 
 - Why can an ordinary ping produce an IDS alert?

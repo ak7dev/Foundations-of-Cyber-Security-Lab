@@ -89,6 +89,10 @@ Record the client address, default route, interface assignments, rule position a
 
 The exercise demonstrates routed policy enforcement and adds separately verifiable inspection and filtering capabilities. Document only the features actually configured and tested.
 
+## Conclusion
+
+The pfSense topology illustrates how a firewall placed in the client's network path can enforce ordered, stateful traffic policies. Suricata and pfBlockerNG provide additional inspection and filtering capabilities whose effectiveness depends on their configuration and deployment. Before-and-after measurements, routing checks and matching logs are needed to establish which configured control caused an observed result.
+
 ## Viva questions
 
 - Why does the client need pfSense as its route out of the LAN?
